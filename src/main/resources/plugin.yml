@@ -1,0 +1,5 @@
+name: SCaptcha
+version: '${project.version}'
+main: rq.scaptcha.SCaptcha
+api-version: '1.16'
+commands:

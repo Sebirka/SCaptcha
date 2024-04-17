@@ -1,0 +1,33 @@
+version: 1.1 #не трогайте пожалуйста
+chat:
+  join:
+    - '&7Добро пожаловать на сервер!'
+  instructions:
+    - '&7[&#FF0000&lP&#FF2B2B&lr&#FF5555&lo&#FF8080&lt&#FFAAAA&le&#FFD5D5&lc&#FFFFFF&lt&7] &7Чтобы начать играть на сервере нужно:'
+    - '&7[&#FF0000&lP&#FF2B2B&lr&#FF5555&lo&#FF8080&lt&#FFAAAA&le&#FFD5D5&lc&#FFFFFF&lt&7] &7- Дождитесь расшифровки цифр'
+    - '&7[&#FF0000&lP&#FF2B2B&lr&#FF5555&lo&#FF8080&lt&#FFAAAA&le&#FFD5D5&lc&#FFFFFF&lt&7] &7- Вести код с экрана в чат'
+    - '&7[&#FF0000&lP&#FF2B2B&lr&#FF5555&lo&#FF8080&lt&#FFAAAA&le&#FFD5D5&lc&#FFFFFF&lt&7] &7- Начать играть'
+  kickMessage: '&cВы не успели пройти проверку за 1 минуту'
+  successMessage: '&6Вы успешно ввели капчу!'
+  errorMessage: '&7[&#FF0000&lP&#FF2B2B&lr&#FF5555&lo&#FF8080&lt&#FFAAAA&le&#FFD5D5&lc&#FFFFFF&lt&7]&c Неверная капча. Попробуйте еще раз.'
+  numberFormatMessage: '&7[&#FF0000&lP&#FF2B2B&lr&#FF5555&lo&#FF8080&lt&#FFAAAA&le&#FFD5D5&lc&#FFFFFF&lt&7]&c Капча должна быть числом. Попробуйте еще раз.'
+  ins: 'Посмотрите инструкцию в чате'
+cfg:
+  captcha_symbols: "1234567890QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm" # символы которые будут в капче
+  captcha_length: 5 # сколько будет символов
+  color: '&#FF0000&l' #Цвет цифер
+  teleport_on_join: false # телепортировать ли игрока на определеный мир и кординаты
+  world: 'world'
+  x: 70.500
+  y: 64
+  z: 254.500
+ # Евенты
+  ItemHeldEvent: true
+  CommandEvent: true
+  TeleportEvent: true
+  PickupItemEvent: true
+  DropItemEvent: true
+  MoveEvent: true
+title: # на сколько долго будет Title
+  i: 20 # начало title
+  i2: 20 # конец
